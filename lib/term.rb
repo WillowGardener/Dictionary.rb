@@ -2,6 +2,7 @@ class Term
   def initialize(word, definition)
     @word = word
     @definition = definition
+
   end
 
   def show_term
@@ -11,6 +12,10 @@ class Term
 
   def just_word
     @word
+  end
+
+  def just_def
+    @definition
   end
 
 end
