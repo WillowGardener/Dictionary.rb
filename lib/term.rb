@@ -4,9 +4,13 @@ class Term
     @definition = definition
   end
 
-  def show_word
+  def show_term
     puts @word + ":"
     puts @definition
+  end
+
+  def just_word
+    @word
   end
 
 end
