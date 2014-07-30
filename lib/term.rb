@@ -4,8 +4,9 @@ class Term
     @definition = definition
   end
 
-  def display
-    puts @word
+  def show_word
+    puts @word + ":"
     puts @definition
   end
+
 end
